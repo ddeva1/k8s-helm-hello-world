@@ -58,4 +58,7 @@ spec:
 ```
 helm package ./k8s-helm-hello-world
 ```
-To override chart version, pass this flag: --version=<majorversion><minorversion><patches>
+To override chart version, use
+```
+helm package ./k8s-helm-hello-world --version=<majorversion><minorversion><patches>
+```
