@@ -13,3 +13,5 @@ service:
 
 env:
   name: dev
+charts:
+  version: 1.0.0

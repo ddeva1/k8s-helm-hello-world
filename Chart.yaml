@@ -3,4 +3,4 @@ appVersion: 1.0.0
 description: My First Helm Chart
 name: nginx-chart
 type: application
-version: {{ .Values.majorversion }}.{{ .Values.minorversion }}.{{ .Values.patches }}
+version: 1.0.0
