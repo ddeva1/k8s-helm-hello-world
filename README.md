@@ -53,7 +53,9 @@ spec:
 ---
 ```
 
-## Installing
-Install helloworld chart
+## Helm Packaging
 
-helm install --name myfirstapp chartmuseum/myfirstapp
+```
+helm package ./k8s-helm-hello-world
+```
+To override chart version, pass this flag: --version=<majorversion><minorversion><patches>
